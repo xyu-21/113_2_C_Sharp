@@ -44,9 +44,10 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            label1.Location = new Point(44, 36);
+            label1.Location = new Point(57, 46);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(143, 24);
+            label1.Size = new Size(181, 30);
             label1.TabIndex = 0;
             label1.Text = "輸入行駛里程數";
             // 
@@ -54,9 +55,10 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            label2.Location = new Point(44, 103);
+            label2.Location = new Point(57, 130);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(143, 24);
+            label2.Size = new Size(181, 30);
             label2.TabIndex = 1;
             label2.Text = "消耗油量公升數";
             // 
@@ -64,26 +66,29 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            label3.Location = new Point(63, 168);
+            label3.Location = new Point(81, 213);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(124, 24);
+            label3.Size = new Size(157, 30);
             label3.TabIndex = 2;
             label3.Text = "您的平均油耗";
             // 
             // distanceTextBox
             // 
             distanceTextBox.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            distanceTextBox.Location = new Point(209, 33);
+            distanceTextBox.Location = new Point(269, 42);
+            distanceTextBox.Margin = new Padding(4, 4, 4, 4);
             distanceTextBox.Name = "distanceTextBox";
-            distanceTextBox.Size = new Size(173, 32);
+            distanceTextBox.Size = new Size(221, 38);
             distanceTextBox.TabIndex = 3;
             // 
             // gasTextBox
             // 
             gasTextBox.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            gasTextBox.Location = new Point(209, 100);
+            gasTextBox.Location = new Point(269, 127);
+            gasTextBox.Margin = new Padding(4, 4, 4, 4);
             gasTextBox.Name = "gasTextBox";
-            gasTextBox.Size = new Size(173, 32);
+            gasTextBox.Size = new Size(221, 38);
             gasTextBox.TabIndex = 4;
             // 
             // averageLabel
@@ -91,18 +96,20 @@
             averageLabel.BorderStyle = BorderStyle.FixedSingle;
             averageLabel.Enabled = false;
             averageLabel.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            averageLabel.Location = new Point(209, 166);
+            averageLabel.Location = new Point(269, 210);
+            averageLabel.Margin = new Padding(4, 0, 4, 0);
             averageLabel.Name = "averageLabel";
-            averageLabel.Size = new Size(173, 29);
+            averageLabel.Size = new Size(222, 36);
             averageLabel.TabIndex = 5;
             averageLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // calculateButton
             // 
             calculateButton.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            calculateButton.Location = new Point(63, 231);
+            calculateButton.Location = new Point(81, 293);
+            calculateButton.Margin = new Padding(4, 4, 4, 4);
             calculateButton.Name = "calculateButton";
-            calculateButton.Size = new Size(110, 33);
+            calculateButton.Size = new Size(141, 42);
             calculateButton.TabIndex = 6;
             calculateButton.Text = "計算";
             calculateButton.UseVisualStyleBackColor = true;
@@ -111,28 +118,32 @@
             // ExitButton
             // 
             ExitButton.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            ExitButton.Location = new Point(257, 231);
+            ExitButton.Location = new Point(330, 293);
+            ExitButton.Margin = new Padding(4, 4, 4, 4);
             ExitButton.Name = "ExitButton";
-            ExitButton.Size = new Size(110, 33);
+            ExitButton.Size = new Size(141, 42);
             ExitButton.TabIndex = 7;
             ExitButton.Text = "離開";
             ExitButton.UseVisualStyleBackColor = true;
+            ExitButton.Click += ExitButton_Click;
             // 
             // logListBox
             // 
             logListBox.FormattingEnabled = true;
-            logListBox.ItemHeight = 15;
-            logListBox.Location = new Point(411, 28);
+            logListBox.ItemHeight = 19;
+            logListBox.Location = new Point(528, 35);
+            logListBox.Margin = new Padding(4, 4, 4, 4);
             logListBox.Name = "logListBox";
-            logListBox.Size = new Size(261, 169);
+            logListBox.Size = new Size(334, 213);
             logListBox.TabIndex = 8;
             // 
             // button1
             // 
             button1.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            button1.Location = new Point(471, 231);
+            button1.Location = new Point(606, 293);
+            button1.Margin = new Padding(4, 4, 4, 4);
             button1.Name = "button1";
-            button1.Size = new Size(144, 33);
+            button1.Size = new Size(185, 42);
             button1.TabIndex = 9;
             button1.Text = "總平均油耗";
             button1.UseVisualStyleBackColor = true;
@@ -140,9 +151,9 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(698, 291);
+            ClientSize = new Size(897, 369);
             Controls.Add(button1);
             Controls.Add(logListBox);
             Controls.Add(ExitButton);
@@ -153,6 +164,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;

@@ -46,7 +46,7 @@ namespace Tutorial_4_4
             double sum = 0; //宣告區域變數
             if (logListBox.Items.Count > 1) //如果logListBox的項目數大於1
             {
-                
+
                 for (int i = 1; i < logListBox.Items.Count; i++) //從1開始是因為第0個是平均油耗紀錄
                 {
                     sum += double.Parse(logListBox.Items[i].ToString().Replace("公里/公升", "")); // 將其拿掉換成空格
@@ -57,6 +57,11 @@ namespace Tutorial_4_4
             {
                 MessageBox.Show("沒有紀錄");
             }
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            this.Close(); //關閉視窗
         }
     }
 }
