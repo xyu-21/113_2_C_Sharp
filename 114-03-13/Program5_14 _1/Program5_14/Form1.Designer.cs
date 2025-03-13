@@ -30,6 +30,7 @@
         {
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.openFile = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // listBox1
@@ -46,9 +47,13 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(13, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 12);
+            this.label1.Size = new System.Drawing.Size(113, 12);
             this.label1.TabIndex = 1;
-            this.label1.Text = "The followings are contents of the file.";
+            this.label1.Text = "以下是檔案的內容。";
+            // 
+            // openFile
+            // 
+            this.openFile.FileName = "openFileDialog1";
             // 
             // Form1
             // 
@@ -69,6 +74,7 @@
 
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.OpenFileDialog openFile;
     }
 }
 

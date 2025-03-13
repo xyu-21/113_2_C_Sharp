@@ -26,17 +26,25 @@ namespace Program5_14
 
             try
             {
-                inputFile = File.OpenText("NUMBERS.txt"); //開啟檔案
-                while (!inputFile.EndOfStream) //當沒有讀到檔案結尾時(代表檔案中還有資料)
-                {
-                    count++; //資料筆數加1
-                    temp = int.Parse(inputFile.ReadLine()); //將讀取的檔案轉換為int型態，並加總(+=是加總)
-                    sum += temp; //將讀取的檔案轉換為int型態，並加總(+=是加總)
-                    listBox1.Items.Add(temp); //將讀取的檔案放入listBox1
+                if(openFile.ShowDialog() == DialogResult.OK)//如果使用者按下開啟檔案按鈕 
+                {                   
+                    inputFile = File.OpenText(openFile.FileName); //開啟檔案
+                    while (!inputFile.EndOfStream) //當沒有讀到檔案結尾時(代表檔案中還有資料)
+                    {
+                        count++; //資料筆數加1
+                        temp = int.Parse(inputFile.ReadLine()); //將讀取的檔案轉換為int型態，並加總(+=是加總)
+                        sum += temp; //將讀取的檔案轉換為int型態，並加總(+=是加總)
+                        listBox1.Items.Add(temp); //將讀取的檔案放入listBox1
+                    }
+                    listBox1.Items.Add("總共有" + count + "個數字"); //將資料筆數放入listBox1
+                    listBox1.Items.Add("總和為" + sum); //將總和放入listBox1
+                    inputFile.Close(); //關閉檔案
                 }
-                listBox1.Items.Add("總共有" + count + "個數字"); //將資料筆數放入listBox1
-                listBox1.Items.Add("總和為" + sum); //將總和放入listBox1
-                inputFile.Close(); //關閉檔案
+                else//如果使用者按下取消按鈕
+                { 
+                    MessageBox.Show("您按下取消按鈕，程式即將結束"); //顯示訊息
+                    this.Close(); //關閉程式}
+                }
             }
             catch (Exception ex)
             {
