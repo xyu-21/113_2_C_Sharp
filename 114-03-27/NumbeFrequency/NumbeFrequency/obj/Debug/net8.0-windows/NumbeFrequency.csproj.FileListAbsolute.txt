@@ -1,0 +1,17 @@
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\bin\Debug\net8.0-windows\NumbeFrequency.exe
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\bin\Debug\net8.0-windows\NumbeFrequency.deps.json
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\bin\Debug\net8.0-windows\NumbeFrequency.runtimeconfig.json
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\bin\Debug\net8.0-windows\NumbeFrequency.dll
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\bin\Debug\net8.0-windows\NumbeFrequency.pdb
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\obj\Debug\net8.0-windows\NumbeFrequency.Form1.resources
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\obj\Debug\net8.0-windows\NumbeFrequency.csproj.GenerateResource.cache
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\obj\Debug\net8.0-windows\NumbeFrequency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\obj\Debug\net8.0-windows\NumbeFrequency.AssemblyInfoInputs.cache
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\obj\Debug\net8.0-windows\NumbeFrequency.AssemblyInfo.cs
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\obj\Debug\net8.0-windows\NumbeFrequency.csproj.CoreCompileInputs.cache
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\obj\Debug\net8.0-windows\NumbeFrequency.sourcelink.json
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\obj\Debug\net8.0-windows\NumbeFrequency.dll
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\obj\Debug\net8.0-windows\refint\NumbeFrequency.dll
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\obj\Debug\net8.0-windows\NumbeFrequency.pdb
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\obj\Debug\net8.0-windows\NumbeFrequency.genruntimeconfig.cache
+C:\Users\w401\Desktop\113_2_C_Sharp\114-03-27\NumbeFrequency\NumbeFrequency\obj\Debug\net8.0-windows\ref\NumbeFrequency.dll
