@@ -18,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\w401\\Desktop\\113_2_C_Sharp\\114-02-20\\helloworld\\helloworld\\Form1.cs",
+              "RelativeDocumentMoniker": "helloworld\\Form1.cs",
+              "ToolTip": "C:\\Users\\w401\\Desktop\\113_2_C_Sharp\\114-02-20\\helloworld\\helloworld\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "helloworld\\Form1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T03:39:37.904Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,18 +44,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T03:44:34.763Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "C:\\Users\\w401\\Desktop\\113_2_C_Sharp\\114-02-20\\helloworld\\helloworld\\Form1.cs",
-              "RelativeDocumentMoniker": "helloworld\\Form1.cs",
-              "ToolTip": "C:\\Users\\w401\\Desktop\\113_2_C_Sharp\\114-02-20\\helloworld\\helloworld\\Form1.cs [\u8A2D\u8A08]",
-              "RelativeToolTip": "helloworld\\Form1.cs [\u8A2D\u8A08]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T03:39:37.904Z",
-              "EditorCaption": " [\u8A2D\u8A08]"
             }
           ]
         }
