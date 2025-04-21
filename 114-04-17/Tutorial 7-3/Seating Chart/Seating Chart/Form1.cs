@@ -14,53 +14,87 @@ namespace Seating_Chart
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(); // 初始化表單的元件
         }
 
+        /// <summary>
+        /// 使用者按下「顯示價格」按鈕時執行的事件處理函式。
+        /// 根據使用者輸入的行與列，顯示對應座位的價格。
+        /// </summary>
         private void displayPriceButton_Click(object sender, EventArgs e)
         {
-            // TODO: 在此處新增顯示票價的邏輯。
-            // 此方法會在使用者按下 "顯示票價" 按鈕時觸發。
-            const int ROWS = 6;
-            const int COLS = 4;
-            int row;
-            int col;
+            // 定義座位的行數與列數
+            const int ROWS = 6; // 總共有 6 行座位
+            const int COLS = 4; // 總共有 4 列座位
 
-            decimal[,] prices = { {450m, 450m, 450m, 450m},
-                                  {425m, 425m, 425m, 425m},
-                                  {400m, 400m, 400m, 400m},
-                                  {375m, 375m, 375m, 375m},
-                                  {375m, 375m, 375m, 375m},
-                                  {350m, 350m, 350m, 350m}
-                                };
-            // 宣告一個二維陣列，並初始化票價。
+            int row; // 儲存使用者輸入的行號
+            int col; // 儲存使用者輸入的列號
 
-            // 修正拼寫錯誤，將 TryPaserse 改為 TryParse，並移除多餘的 int 關鍵字。
-            if (int.TryParse(rowTextBox.Text, out row) && int.TryParse(colTextBox.Text, out col))
+            // 定義座位價格的二維陣列，每個元素對應一個座位的價格
+            decimal[,] seatPrices =  {
+                                            {450m, 450m, 450m, 450m}, // 第一行的座位價格
+                                            {425m, 425m, 425m, 425m}, // 第二行的座位價格
+                                            {400m, 400m, 400m, 400m}, // 第三行的座位價格
+                                            {375m, 375m, 375m, 375m}, // 第四行的座位價格
+                                            {375m, 375m, 375m, 375m}, // 第五行的座位價格
+                                            {350m, 350m, 350m, 350m}  // 第六行的座位價格
+                                         };
+
+            // 嘗試將使用者輸入的行號轉換為整數
+            if (int.TryParse(rowTextBox.Text, out row))
             {
-                // 確保 row 和 col 的值在有效範圍內。
-                if (row >= 1 && row <= ROWS && col >= 1 && col <= COLS)
+                // 嘗試將使用者輸入的列號轉換為整數
+                if (int.TryParse(colTextBox.Text, out col))
                 {
-                    // 將使用者輸入的行和列轉換為價格。
-                    priceLabel.Text = prices[row - 1, col - 1].ToString("C");
+                    // 確認行號是否在有效範圍內
+                    if (row >= 0 && row < seatPrices.GetLength(0))
+                    {
+                        // 確認列號是否在有效範圍內
+                        if (col >= 0 && col < seatPrices.GetLength(1))
+                        {
+                            // 顯示對應座位的價格，並格式化為美元貨幣格式
+                            priceLabel.Text = seatPrices[row, col].ToString("C", System.Globalization.CultureInfo.GetCultureInfo("en-US"));
+                        }
+                        else
+                        {
+                            // 列號超出範圍，提示使用者輸入正確的列號
+                            MessageBox.Show("行編號必須在 0 到 3 之間!");
+                            colTextBox.Focus(); // 將焦點移回列號輸入框
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        // 行號超出範圍，提示使用者輸入正確的行號
+                        MessageBox.Show("列編號必須在 0 到 5 之間!");
+                        rowTextBox.Focus(); // 將焦點移回行號輸入框
+                        return;
+                    }
                 }
                 else
                 {
-                    // 如果行或列超出範圍，顯示錯誤訊息。
-                    MessageBox.Show("請輸入有效的行和列號碼。");
+                    // 列號輸入無效，提示使用者重新輸入
+                    MessageBox.Show("請輸入有效的行號。");
+                    colTextBox.Focus(); // 將焦點移回列號輸入框
+                    return;
                 }
             }
             else
             {
-                // 如果輸入的行或列不是有效的數字，顯示錯誤訊息。
-                MessageBox.Show("請輸入有效的數字。");
+                // 行號輸入無效，提示使用者重新輸入
+                MessageBox.Show("請輸入有效的列號。");
+                rowTextBox.Focus(); // 將焦點移回行號輸入框
+                return;
             }
         }
+
+        /// <summary>
+        /// 使用者按下「離開」按鈕時執行的事件處理函式。
+        /// 關閉表單並結束程式。
+        /// </summary>
         private void exitButton_Click(object sender, EventArgs e)
         {
-            // 關閉表單。
-            // 當使用者按下 "離開" 按鈕時，會執行此方法以關閉應用程式。
-            this.Close();
+            this.Close(); // 關閉表單視窗
         }
     }
 }
