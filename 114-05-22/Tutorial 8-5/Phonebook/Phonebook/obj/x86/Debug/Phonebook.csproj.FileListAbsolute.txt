@@ -50,3 +50,13 @@ E:\Git Repos\113_2_C_Sharp_Tutorial\114_04_17\Tutorial 8-5\Phonebook\Phonebook\o
 E:\Git Repos\113_2_C_Sharp_Tutorial\114_04_17\Tutorial 8-5\Phonebook\Phonebook\obj\x86\Debug\Phonebook.csproj.CoreCompileInputs.cache
 E:\Git Repos\113_2_C_Sharp_Tutorial\114_04_17\Tutorial 8-5\Phonebook\Phonebook\obj\x86\Debug\Phonebook.exe
 E:\Git Repos\113_2_C_Sharp_Tutorial\114_04_17\Tutorial 8-5\Phonebook\Phonebook\obj\x86\Debug\Phonebook.pdb
+C:\Users\Wang\Desktop\113_2_C_Sharp\114-05-22\Tutorial 8-5\Phonebook\Phonebook\bin\Debug\Phonebook.exe.config
+C:\Users\Wang\Desktop\113_2_C_Sharp\114-05-22\Tutorial 8-5\Phonebook\Phonebook\bin\Debug\Phonebook.exe
+C:\Users\Wang\Desktop\113_2_C_Sharp\114-05-22\Tutorial 8-5\Phonebook\Phonebook\bin\Debug\Phonebook.pdb
+C:\Users\Wang\Desktop\113_2_C_Sharp\114-05-22\Tutorial 8-5\Phonebook\Phonebook\obj\x86\Debug\Phonebook.csproj.AssemblyReference.cache
+C:\Users\Wang\Desktop\113_2_C_Sharp\114-05-22\Tutorial 8-5\Phonebook\Phonebook\obj\x86\Debug\Phonebook.Form1.resources
+C:\Users\Wang\Desktop\113_2_C_Sharp\114-05-22\Tutorial 8-5\Phonebook\Phonebook\obj\x86\Debug\Phonebook.Properties.Resources.resources
+C:\Users\Wang\Desktop\113_2_C_Sharp\114-05-22\Tutorial 8-5\Phonebook\Phonebook\obj\x86\Debug\Phonebook.csproj.GenerateResource.cache
+C:\Users\Wang\Desktop\113_2_C_Sharp\114-05-22\Tutorial 8-5\Phonebook\Phonebook\obj\x86\Debug\Phonebook.csproj.CoreCompileInputs.cache
+C:\Users\Wang\Desktop\113_2_C_Sharp\114-05-22\Tutorial 8-5\Phonebook\Phonebook\obj\x86\Debug\Phonebook.exe
+C:\Users\Wang\Desktop\113_2_C_Sharp\114-05-22\Tutorial 8-5\Phonebook\Phonebook\obj\x86\Debug\Phonebook.pdb
